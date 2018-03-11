@@ -10,6 +10,7 @@ public class LoopInLoop {
             }
             System.out.println();
         }
+        System.out.println();
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < i +1; j++) {
                 if (j == i ) {
@@ -20,6 +21,7 @@ public class LoopInLoop {
             }
             System.out.println();
         }
+        System.out.println();
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
                 if (i == 0 || j == 0 || j == 5 || i == 5) System.out.print("*");
@@ -27,7 +29,7 @@ public class LoopInLoop {
             }
             System.out.println("");
         }
-
+        System.out.println();
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
                 if (j==i || j==(5-i)) System.out.print("*");
